@@ -1,0 +1,12 @@
+ID
+Project
+Issue Type
+Summary
+Precondition
+Actual Result
+Expected Result
+Reporter
+Priority
+Severity
+Environment
+Attachments
