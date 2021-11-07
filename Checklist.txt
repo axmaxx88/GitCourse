@@ -1,0 +1,6 @@
+Build
+Environment
+Test date
+Tester
+Test type
+Result
