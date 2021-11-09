@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <person>
-	<surname>Aksenov<surname>
-	<name>Maksim<name>
-	<patronymic>Aleksandrovich<patronymic>
-	<age>32<age>
-<person>
+	<surname>Aksenov</surname>
+	<name>Maksim</name>
+	<patronymic>Aleksandrovich</patronymic>
+	<age>32</age>
+</person>
 <pats>
-	<cat1>Biba<cat1>
-	<cat2>Boba<cat2>
-<pats>
-	<desiredSalary>999<desiredSalary>
-	<Favourite_film>Knockin 'on Heaven's Door<Favourite_film>
-<Favourite_TV_show>Dark<Favourite_TV_show>
-<Favourite_food>Paste<Favourite_food>
-<Favourite_season>Spring<Favourite_season>
-<Country_I_d_like_to_go>Portugal<Country_I_d_like_to_go>
+	<cat1>Biba</cat1>
+	<cat2>Boba</cat2>
+</pats>
+<desiredSalary>999</desiredSalary>
+<Favourite_film>Knockin 'on Heaven's Door</Favourite_film>
+<Favourite_TV_show>Dark</Favourite_TV_show>
+<Favourite_food>Paste</Favourite_food>
+<Favourite_season>Spring</Favourite_season>
+<Country_I_d_like_to_go>Portugal</Country_I_d_like_to_go>
 
 
