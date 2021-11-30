@@ -116,22 +116,22 @@ create table salary (
 					-- 2500
 
 insert into salary(monthly_salary)
-values ('1000'),
-	('1100'),
-	('1200'),
-	('1300'),
-	('1400'),
-	('1500'),
-	('1600'),
-	('1700'),
-	('1800'),
-	('1900'),
-	('2000'),
-	('2100'),
-	('2200'),
-	('2300'),
-	('2400'),
-	('2500');
+values (1000),
+	(1100),
+	(1200),
+	(1300),
+	(1400),
+	(1500),
+	(1600),
+	(1700),
+	(1800),
+	(1900),
+	(2000),
+	(2100),
+	(2200),
+	(2300),
+	(2400),
+	(2500);
 
 
 					--Table employee_salary
@@ -151,7 +151,7 @@ create table employee_salary (
 					--6) Insert into employee_salary 40 lines:
 					-- in 10 of 40 lines insert non-existen employee_id
 
-					--id:  			1,2,3,4,5,6,7,8,9,10,11
+					--id:  				1,2,3,4,5,6,7,8,9,10,11
 					--employee_id: 		3,1,5,40,23,11,52,15,26,16,33
 					--salary_id: 		7,4,9,13,4,2,10,13,4,1,7
 
@@ -215,15 +215,15 @@ alter column role_name type varchar(30);
 					--9) Insert into roles 20 lines:
 					--id 		--role_name
 					
-					--1		Junior Python developer
-					--2		Middle Python developer
-					--3		Senior Python developer
-					--4		Junior Java developer
-					--5		Middle Java developer
-					--6		Senior Java developer
-					--7		Junior JavaScript developer
-					--8		Middle JavaScript developer
-					--9		Senior JavaScript developer
+					--1			Junior Python developer
+					--2			Middle Python developer
+					--3			Senior Python developer
+					--4			Junior Java developer
+					--5			Middle Java developer
+					--6			Senior Java developer
+					--7			Junior JavaScript developer
+					--8			Middle JavaScript developer
+					--9			Senior JavaScript developer
 					--10		Junior Manual QA engineer
 					--11		Middle Manual QA engineer
 					--12		Senior Manual QA engineer
@@ -261,7 +261,7 @@ values ('Junior Python developer'),
 					--Table roles_employee
 
 					--10) Create table roles_employee
-					-- id. Serial  primarey key,
+						-- id. Serial  primarey key,
 					-- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
 					-- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
 	
@@ -279,7 +279,7 @@ select * from roles_employee
 	
 					--11) Insert into roles_employee 40 lines:
 
-					--id 		--employee_id 			--role_id
+					--id 	--employee_id 	--role_id
 										
 					--1			7				2
 					--2			20				4
@@ -290,8 +290,8 @@ select * from roles_employee
 					--7			10				9
 					--8			22				13
 					--9			21				3
-					--10			34				4
-					--11			6				7
+					--10		34				4
+					--11		6				7
 
 insert into roles_employee(employee_id, role_id)
 values (2, 2),
