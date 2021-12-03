@@ -262,8 +262,8 @@ values ('Junior Python developer'),
 
 					--10) Create table roles_employee
 						-- id. Serial  primarey key,
-					-- employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)
-					-- role_id. Int, not null (внешний ключ для таблицы roles, поле id)
+					-- employee_id. Int, not null, unique (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ employees, пїЅпїЅпїЅпїЅ id)
+					-- role_id. Int, not null (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ roles, пїЅпїЅпїЅпїЅ id)
 	
 create table roles_employee (
 	id serial primary key,
@@ -275,7 +275,6 @@ create table roles_employee (
 	references roles(id)
 );
 
-select * from roles_employee
 	
 					--11) Insert into roles_employee 40 lines:
 
@@ -295,47 +294,47 @@ select * from roles_employee
 
 insert into roles_employee(employee_id, role_id)
 values (2, 2),
-	(4, 9),
+	(3, 9),
 	(6, 4),
-	(7, 13),
+	(1, 13),
 	(8, 2),
 	(9, 7),
-	(12, 11),
+	(5, 11),
 	(14, 5),
 	(18, 1),
-	(20, 2),
+	(17, 2),
 	(21, 6),
-	(24, 8),
+	(23, 8),
 	(26, 9),
 	(27, 19),
 	(29, 4),
 	(30, 12),
-	(31, 13),
+	(32, 13),
 	(33, 10),
 	(34, 2),
-	(36, 1),
-	(39, 18),
+	(35, 1),
+	(36, 18),
 	(41, 6),
 	(43, 9),
-	(44, 15),
+	(45, 15),
 	(46, 17),
 	(47, 16),
 	(48, 14),
-	(50, 12),
-	(51, 13),
-	(55, 10),
+	(49, 12),
+	(52, 13),
+	(53, 10),
 	(56, 9),
 	(57, 1),
 	(58, 3),
-	(60, 5),
-	(63, 6),
-	(64, 7),
+	(59, 5),
+	(62, 6),
+	(65, 7),
 	(66, 9),
-	(67, 19),
+	(68, 19),
 	(69, 20),
 	(70, 18)
 					
-select * from roles_employee
+
 			
 
 
